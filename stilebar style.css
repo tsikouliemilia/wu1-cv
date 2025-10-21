@@ -25,8 +25,7 @@ aside{
     flex-wrap: wrap;
     gap: 1rem;
     margin: 0 1rem;
-    align-items: flex-start;
-    justify-content: center;
+    
     
 }
 
@@ -37,10 +36,7 @@ aside{
     flex-basis: 16rem;
     flex-grow: 1;
     min-inline-size: 16rem;
-    max-inline-size: 20rem;
-    order: -1;
-    align-self: flex-start;
-    height: fit-content;
+    max-inline-size: 18rem;
     transition: transform 0.3s ease;
 
     
@@ -49,17 +45,18 @@ aside{
 
 .notsidebar{
     flex-basis: 0;
-    flex: grow 999;
-    min-inline-size: 50%;
-    max-inline-size: 40rem;
+    flex-grow: 999;
+    min-inline-size: 16rem;
+    max-inline-size: 30rem;
     border: 2px solid #073636;
-    align-self: flex-start;
-    height: fit-content;
     transition: transform 0.3s ease;
 
 }
 
 article {
+    min-inline-size: 20rem;
+    max-inline-size: 35rem;
+    margin-left: 21rem;
     border: 2px solid #033232;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -67,6 +64,7 @@ article {
     background-color: #e0f7f7;
     transition: transform 0.3s ease;
     margin-bottom: 1rem;
+    
 
 
 }
@@ -77,6 +75,7 @@ article {
     margin-left: auto;
     padding: 0 1rem;
     box-sizing: border-box;
+    
 }
 
 header {
