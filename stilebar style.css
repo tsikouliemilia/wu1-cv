@@ -1,7 +1,7 @@
 aside{
 
 
-    background-color: #25d0d0;
+    background-color: #27cdcd;
     color: rgb(32, 70, 70);
     padding: 1rem;
     margin-bottom: 1rem;
@@ -104,6 +104,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     transition: transform 0.3s ease;
+    overflow: auto;
+    
 
 }
 
@@ -132,6 +134,11 @@ h1{
    
 
 }
+
+article p{
+    margin-top: -10px 0 0 0;
+}
+
 
 
 
