@@ -43,14 +43,10 @@ aside{
 }
 
 
-.notsidebar{
-    flex-basis: 0;
-    flex-grow: 999;
-    min-inline-size: 16rem;
-    max-inline-size: 30rem;
-    border: 2px solid #073636;
+.nonsidebar{ 
+    margin-bottom: 53rem;
+    flex-basis: calc(100% - 18rem - 1rem);
     transition: transform 0.3s ease;
-
 }
 
 article {
@@ -137,8 +133,8 @@ h1{
 
 article p{
     margin-top: -10px 0 0 0;
+    margin-top: 0.5rem;
 }
-
 
 
 
